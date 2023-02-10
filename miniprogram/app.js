@@ -37,12 +37,12 @@ App({
     wx.loadFontFace({
       global: true,
       family: 'Smiley Sans Oblique',
-      source: 'https://img.rabithua.club/%E9%BA%A6%E9%BB%98/SmileySans-Oblique.ttf',
+      source: 'https://blogimg.jakeyu.top/memos-wmp/SmileySans-Oblique.ttf',
       scopes: ['webview', 'native'],
     });
 
     this.globalData = {
-      url: 'https://memos.wowow.club',
+      url: 'https://memo.jakeyu.top',
       top_btn: null,
     }
 
@@ -76,7 +76,7 @@ App({
   loadFont() {
     wx.loadFontFace({
       family: 'Noto Serif SC',
-      source: 'url("https://img.rabithua.club/others/NotoSerifSC-SemiBold.otf")',
+      source: 'url("https://blogimg.jakeyu.top/memos-wmp/NotoSerifSC-SemiBold.otf")',
       success: console.log
     })
   },

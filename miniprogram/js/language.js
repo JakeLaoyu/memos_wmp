@@ -19,7 +19,7 @@ export const chinese = {
     secondTitle: '把脑袋里的小碎片收集起来✨',
     dsc: '麦默是 Github 开源项目 usememos/memos 的小程序版本，同样的，麦默 Rabithua/memos_wmp 也是开源的！',
     username: '用户名',
-    usernamePlaceholder: 'XXX@XX.com',
+    usernamePlaceholder: 'username',
     password: '密码',
     passwordPlaceholder: 'password',
     button: '登录/注册',

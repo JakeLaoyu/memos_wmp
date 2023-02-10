@@ -128,7 +128,7 @@ Page({
 
   check() {
     let that = this
-    var reg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+    var reg = /^\w+([-+.]\w+)*$/;
     if (!reg.test(this.data.username)) {
       wx.vibrateLong()
       wx.showToast({
@@ -159,6 +159,7 @@ Page({
     that.setData({
       btnDisable: true
     })
+    
     if (this.check()) {
       app.api.signIn(app.globalData.url, {
           "username": that.data.username,
